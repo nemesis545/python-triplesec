@@ -20,7 +20,7 @@ python-triplesec
 
 A Python port of the TripleSec_ library. See also the JS implementation_.
 
-Compatible with Python 2.7 and 3.6+.
+Compatible with Python 2.7 and 3.10+.
 
 .. _TripleSec: https://keybase.io/triplesec/
 .. _implementation: https://github.com/keybase/triplesec/
