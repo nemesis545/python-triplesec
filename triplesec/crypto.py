@@ -12,7 +12,6 @@ import scrypt
 import struct
 import hmac
 import hashlib
-import sha3
 import twofish
 import salsa20
 from Cryptodome.Util import Counter
@@ -187,7 +186,7 @@ def HMAC_SHA3(data, key):
     return hmac.new(key, data, hashlib.sha3_512).digest()
 
 def HMAC_KECCAK(data, key):
-    return hmac.new(key, data, sha3.keccak_512).digest()
+    return hmac.new(key, data, hashlib.sha3_512).digest()
 
 def Scrypt(key, salt, length, parameters):
     try:
