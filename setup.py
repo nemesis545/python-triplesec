@@ -37,7 +37,7 @@ setup(
                    'License :: OSI Approved :: BSD License',
                    'Programming Language :: Python :: 2.6',
                    'Programming Language :: Python :: 2.7',
-                   'Programming Language :: Python :: 3.3',
+                   'Programming Language :: Python :: 3.11',
                    'Topic :: Security :: Cryptography',
                    'Topic :: Software Development :: Libraries'],
     long_description = open('README.rst').read(),
